@@ -72,5 +72,16 @@ CREATE TABLE orders (
     customer_phone VARCHAR(20) NOT NULL,
     subscription_duration INT(2) NOT NULL
 );
+
+JSON:
+{
+  "productIds": "1,2,3",
+  "deliveryDay": 2,
+  "deliveryPeriod": "Утро",
+  "deliveryAddress": "ул. Примерная, д. 123",
+  "customerPhone": "+7 123 456 7890",
+  "subscriptionDuration": 4
+}
+
 */
 ?>
